@@ -40,10 +40,8 @@ with builtins; [
   #=> "a"
 
 
-  #  Integers
+  #  Numbers
   #=========================================
-
-  # Integers are the only numeric type.
 
   1 0 42 (-3)       # Some integers
 
@@ -53,7 +51,11 @@ with builtins; [
   (7 / 2)           # Division
   #=> 3
 
-
+  1.42              # A floating point number
+  
+  (1.42 - 3)        # Subtraction
+  #=> -1.58
+  
   #  Strings
   #=========================================
 
