@@ -4,6 +4,7 @@ filename: learn.nix
 contributors:
     - ["Chris Martin", "http://chris-martin.org/"]
     - ["Rommel Martinez", "https://ebzzry.io"]
+    - ["Scott Dunlop", "https://github.com/swdunlop"]
 ---
 
 Nix is a simple functional language developed for the
@@ -12,7 +13,7 @@ Nix is a simple functional language developed for the
 
 You can evaluate Nix expressions using
 [nix-instantiate](https://nixos.org/nix/manual/#sec-nix-instantiate)
-or [`nix-repl`](https://github.com/edolstra/nix-repl).
+or [`nix repl`](https://nixos.wiki/wiki/Nix-repl).
 
 ```
 with builtins; [
@@ -42,8 +43,6 @@ with builtins; [
   #  Integers
   #=========================================
 
-  # Integers are the only numeric type.
-
   1 0 42 (-3)       # Some integers
 
   (4 + 6 + 12 - 2)  # Addition
@@ -52,7 +51,12 @@ with builtins; [
   (7 / 2)           # Division
   #=> 3
 
-
+  #  Floats
+  #=========================================
+  
+  1.2 - 0.2
+  #=> 1
+  
   #  Strings
   #=========================================
 
