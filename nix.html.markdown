@@ -4,6 +4,7 @@ filename: learn.nix
 contributors:
     - ["Chris Martin", "http://chris-martin.org/"]
     - ["Rommel Martinez", "https://ebzzry.io"]
+    - ["Scott W. Dunlop", "https://github.com/swdunlop"]
 ---
 
 Nix is a simple functional language developed for the
@@ -12,7 +13,7 @@ Nix is a simple functional language developed for the
 
 You can evaluate Nix expressions using
 [nix-instantiate](https://nixos.org/nix/manual/#sec-nix-instantiate)
-or [`nix-repl`](https://github.com/edolstra/nix-repl).
+or [`nix repl`](https://nixos.wiki/wiki/Nix-repl).
 
 ```nix
 with builtins; [
